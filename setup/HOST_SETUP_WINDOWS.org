@@ -1,11 +1,11 @@
 #+TITLE: HOST_SETUP_WINDOWS.org
 #+AUTHOR: Peter Polidoro
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 
 * Library Information
   - Name :: HOST_SETUP_WINDOWS.org
   - Author :: Peter Polidoro
-  - Email :: peterpolidoro@gmail.com
+  - Email :: peter@polidoro.io
 
 ** Description
 

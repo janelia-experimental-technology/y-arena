@@ -1,11 +1,11 @@
 #+TITLE: y-arena setup
 #+AUTHOR: Peter Polidoro
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 
 * Repository Information
   - Name :: y-arena setup
   - Author :: Peter Polidoro
-  - Email :: peterpolidoro@gmail.com
+  - Email :: peter@polidoro.io
 
 ** Description
 

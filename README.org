@@ -1,6 +1,6 @@
 #+TITLE: y-arena
 #+AUTHOR: Peter Polidoro
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 
 ** Repository Information
 
@@ -9,7 +9,7 @@
    - License :: BSD
    - URL :: https://github.com/janelia-experimental-technology/y-arena
    - Author :: Peter Polidoro
-   - Email :: peterpolidoro@gmail.com
+   - Email :: peter@polidoro.io
 
 ** Description
 
