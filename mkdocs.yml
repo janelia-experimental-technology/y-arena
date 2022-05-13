@@ -41,7 +41,7 @@ nav:
   - Setup:
     - ycontroller: setup/ycontroller.md
     - Linux Host: setup/linux_host.md
-    - Windows Matlab Host: setup/windows_host.md
+    - Windows Matlab Host: setup/windows_matlab_host.md
   - System Architecture:
     - Arena: sa/arena.md
     - Module: sa/module.md
