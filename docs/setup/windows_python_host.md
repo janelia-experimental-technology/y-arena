@@ -35,9 +35,9 @@ choco install -y visualstudio2019community
 
 ## Install y_arena_odor_controller_ros
 
-### Environment Setup
+Run Visual Studio and view terminal and set to Developer Command Prompt.
 
-Open command prompt as non-administrator.
+### Environment Setup
 
 ```sh
 call C:\opt\ros\dashing\x64\local_setup.bat
@@ -60,6 +60,8 @@ colcon build --merge-install
 ```
 
 ## Source Y-Arena Workspace
+
+Open command prompt as non-adminstrator.
 
 ```sh
 call \yarena_ws\install\setup.bat
