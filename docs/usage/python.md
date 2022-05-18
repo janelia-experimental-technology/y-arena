@@ -1,4 +1,23 @@
 # Python
+
+## Source Y-Arena Workspace
+
+Source the workspace to setup the environment variables properly before running the Python script.
+
+### Linux
+
+```sh
+source ~/yarena_ws/install/setup.bash
+```
+
+### Windows
+
+```sh
+call \yarena_ws\install\setup.bat
+```
+
+## Example Python Node
+
 ```python
 import rclpy
 from rclpy.node import Node

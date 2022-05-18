@@ -66,3 +66,34 @@ Open command prompt as non-adminstrator.
 ```sh
 call \yarena_ws\install\setup.bat
 ```
+
+## Test Communications
+
+### Check topic list
+
+Check to make sure "/arena_odors" is in the list of available topics.
+
+```sh
+ros2 topic list
+```
+
+### Check multicast
+
+In Terminal 1 on host machine:
+
+```sh
+ros2 multicast receive
+```
+
+In Terminal 2 on Raspberry Pi:
+
+```sh
+ros2 multicast send
+```
+
+### Troubleshooting
+
+If communications are not working properly, check network connections and settings.
+
+The firewall on the host machine may need to be disabled and multicast may need to be enabled.
+

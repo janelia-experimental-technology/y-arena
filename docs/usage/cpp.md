@@ -1,4 +1,22 @@
 # C++
+
+## Source Y-Arena Workspace
+
+Source the workspace to setup the environment variables properly before running the C++ script.
+
+### Linux
+
+```sh
+source ~/yarena_ws/install/setup.bash
+```
+
+### Windows
+
+```sh
+call \yarena_ws\install\setup.bat
+```
+
+## Example C++ Node
 ```cpp
 #include <chrono>
 #include <functional>
