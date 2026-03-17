@@ -1,6 +1,12 @@
+# Self-contained build for copying to any ordinary static web server.
+# - Uses relative links that work from subpaths and mirrored directories.
+# - Disables Google Fonts so the generated site has no remote font dependency.
+# - Removes GitHub repository/edit links from the rendered pages.
 site_name: Y-Arena
 site_description: Janelia Turner Lab Y-Arena Odor Rig
 site_author: Peter Polidoro
+site_url: ''
+use_directory_urls: false
 
 copyright: 'Copyright &copy; 2020 Peter Polidoro'
 
@@ -15,9 +21,7 @@ theme:
     accent: Deep Purple
   font: false
 
-repo_name: 'y-arena'
-repo_url: 'https://github.com/janelia-experimental-technology/y-arena'
-edit_uri: 'edit/main/docs/'
+edit_uri: ''
 
 markdown_extensions:
   - admonition
