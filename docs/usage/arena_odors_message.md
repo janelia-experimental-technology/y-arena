@@ -1,3 +1,5 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # Arena Odors Message
 ```
 uint8 arena

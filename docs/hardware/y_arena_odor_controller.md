@@ -1,8 +1,5 @@
-## Documentation
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
 
-<https://janelia-kicad.github.io/y_arena_odor_controller/>
+## Local Hardware Files
 
-## Repository
-
-<https://github.com/janelia-kicad/y_arena_odor_controller>
-
+[y_arena_odor_controller hardware files](../../repos/y_arena_odor_controller/)

@@ -1,3 +1,5 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # Windows 10
 
 Check for new Windows updates and install all.
@@ -38,11 +40,14 @@ choco install -y git
 
 In file explorer, right-click any folder and select 'Git Bash Here'.
 
+Use the local ROS source copy as the `y_arena_odor_controller_ros` folder:
+
+[y_arena_odor_controller_ros source files](../../repos/y_arena_odor_controller_ros/)
+
 ```sh
 cd /c/
 mkdir ros
 cd ros
-git clone https://github.com/janelia-ros/y_arena_odor_controller_ros.git
 mkdir custom_msgs
 ```
 

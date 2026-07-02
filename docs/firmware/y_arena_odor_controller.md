@@ -1,4 +1,5 @@
-## Repository
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
 
-<https://github.com/janelia-arduino/YArenaOdorController>
+## Local Firmware Files
 
+[YArenaOdorController source files](../../repos/YArenaOdorController/)

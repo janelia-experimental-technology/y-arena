@@ -1,8 +1,10 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # Linux
 
 ## Install Docker
 
-<https://github.com/janelia-experimental-technology/docker_setup>
+[docker_setup notes](../../repos/docker_setup/)
 
 ## Clone Repository and Build Docker Image
 

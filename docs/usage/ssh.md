@@ -1,3 +1,5 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # SSH
 ```sh
 ssh yuser@ycontroller

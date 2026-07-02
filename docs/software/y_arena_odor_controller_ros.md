@@ -1,4 +1,5 @@
-## Repository
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
 
-<https://github.com/janelia-ros/y_arena_odor_controller_ros>
+## Local Software Files
 
+[y_arena_odor_controller_ros source files](../../repos/y_arena_odor_controller_ros/)

@@ -1,3 +1,5 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # Windows 10
 
 Check for new Windows updates and install all.
@@ -46,10 +48,13 @@ set | findstr -i ROS
 
 ### Create a Workspace and Clone Y-Arena Repository
 
+Use the local ROS source copy as the `y_arena_odor_controller_ros` folder:
+
+[y_arena_odor_controller_ros source files](../../repos/y_arena_odor_controller_ros/)
+
 ```sh
 md \yarena_ws\src
 cd \yarena_ws\src
-git clone https://github.com/janelia-ros/y_arena_odor_controller_ros.git
 ```
 
 ### Build the Workspace with Colcon
@@ -96,4 +101,3 @@ ros2 multicast send
 If communications are not working properly, check network connections and settings.
 
 The firewall on the host machine may need to be disabled and multicast may need to be enabled.
-

@@ -1,22 +1,21 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # ycontroller
 
 ## Setup Raspberry Pi
 
-<https://github.com/janelia-experimental-technology/raspberrypi_setup>
+[raspberrypi_setup notes](../../repos/raspberrypi_setup/)
 
     username: yuser
     hostname: ycontroller
 
 Connect to ycontroller from host machine using SSH or web console.
 
-## Clone the y-arena repository
+## Y-Arena Source Files
 
-```sh
-git clone https://github.com/janelia-experimental-technology/y-arena.git
-cd y-arena
-git submodule init
-git submodule update --recursive
-```
+Use the local source copy:
+
+[y-arena source files](../../repos/y-arena-source/)
 
 ## Install dependencies
 
@@ -28,8 +27,6 @@ sudo apt install python3-filelock -y
 
 ```sh
 cd ~/y-arena
-git pull origin master
-git submodule update --recursive
 cd software/y_arena_odor_controller_ros
 docker stop $(docker ps -aq)
 docker system prune -f
@@ -58,8 +55,6 @@ sudo apt update
 sudo apt full-upgrade
 cd ~/y-arena/setup/
 ./ycontroller_setup uninstall
-git pull origin master
-git submodule update --recursive
 ./ycontroller_setup install
 sudo reboot
 ```

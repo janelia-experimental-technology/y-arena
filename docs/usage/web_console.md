@@ -1,3 +1,5 @@
+[projects](/index.htm)/ [janelia](/janelia/janelia.htm)/
+
 # Web Console
 
 <https://ycontroller:9090>
